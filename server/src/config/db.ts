@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI as string, {
-      dbName: "ai-career",
+      dbName: "ForgePath",
     });
 
     console.log("Connected to mongodb");
