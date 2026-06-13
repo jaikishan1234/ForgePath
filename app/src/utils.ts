@@ -66,8 +66,8 @@ export const plans = [
 export const Features = [
   {
     icon: ScanText,
-    color: "from-indigo-500 to-violet-500",
-    glow: "shadow-indigo-500/20",
+    color: "from-orange-500 to-amber-500",
+    glow: "shadow-orange-500/20",
     title: "Resume Analysis",
     desc: "Get a detailed breakdown of your resume's strengths, weaknesses, ATS compatibility, and missing keywords. Understand exactly what recruiters and applicant tracking systems see.",
     bullets: [
@@ -79,8 +79,8 @@ export const Features = [
   },
   {
     icon: Briefcase,
-    color: "from-emerald-500 to-teal-400",
-    glow: "shadow-emerald-500/20",
+    color: "from-amber-500 to-yellow-500",
+    glow: "shadow-amber-500/20",
     title: "Job Matching",
     desc: "Discover opportunities that align with your skills, experience, and career goals. Focus your efforts on roles where you have the strongest potential fit.",
     bullets: [
@@ -92,8 +92,8 @@ export const Features = [
   },
   {
     icon: FileEdit,
-    color: "from-pink-500 to-rose-400",
-    glow: "shadow-pink-500/20",
+    color: "from-orange-600 to-orange-400",
+    glow: "shadow-orange-500/20",
     title: "Resume Builder",
     desc: "Create professional, ATS-friendly resumes with structured templates and AI assistance. Build resumes that are ready for both recruiters and hiring systems.",
     bullets: [
@@ -105,8 +105,8 @@ export const Features = [
   },
   {
     icon: MessageSquare,
-    color: "from-amber-500 to-orange-400",
-    glow: "shadow-amber-500/20",
+    color: "from-yellow-500 to-orange-500",
+    glow: "shadow-yellow-500/20",
     title: "Interview Preparation",
     desc: "Practice with personalized interview questions, improve your responses, and prepare confidently for technical, behavioral, and HR interviews.",
     bullets: [
