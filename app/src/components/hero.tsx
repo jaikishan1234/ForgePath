@@ -9,7 +9,7 @@ function Hero() {
     <section className="relative pt-36 pb-28 px-6 flex flex-col items-center text-center overflow-hidden">
       {/* Background Orbs */}
       <div
-        className="orb w-[600px] h-[600px] bg-orange-500 -top-40 left-1/2 -translate-x-1/2"
+        className="orb w-150 h-150 bg-orange-500 -top-40 left-1/2 -translate-x-1/2"
         style={{ opacity: 0.12 }}
       />
 

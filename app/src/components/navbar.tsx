@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 md:px-12 py-4 border-b border-orange-500/10 bg-[#080b14]/80 backdrop-blur-xl">
       {/* Logo */}
       <Link to="/" className="flex items-center gap-2.5">
-        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center shadow-lg shadow-orange-500/40">
+        <div className="w-8 h-8 rounded-lg bg-linear-to-br from-orange-500 to-amber-500 flex items-center justify-center shadow-lg shadow-orange-500/40">
           <Hammer size={18} className="text-white" />
         </div>
 

@@ -55,7 +55,7 @@ function Features() {
               <div
                 className={`
                   w-12 h-12 rounded-xl
-                  bg-gradient-to-br
+                  bg-linear-to-br
                   ${color}
                   flex items-center justify-center
                   shadow-xl
