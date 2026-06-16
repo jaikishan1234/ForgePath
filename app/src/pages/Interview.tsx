@@ -89,7 +89,7 @@ const InterviewPrep = () => {
 
     setLoading(true);
     try {
-      const payload: any = { mode, round };
+      let payload: any = { mode, round };
       if (mode === "manual") {
         payload.skills = skills;
         payload.experience = experience;
