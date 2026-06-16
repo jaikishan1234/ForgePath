@@ -6,6 +6,23 @@ import paymentRoutes from "./routes/payment.js";
 import connectDB from "./config/db.js";
 import cors from "cors";
 import Razorpay from "razorpay";
+import axios from "axios";
+
+const url = `https://forgepath.onrender.com`;
+const interval = 30000;
+
+function reloadWebsite() {
+  axios
+    .get(url)
+    .then((response) => {
+      console.log("website reloded");
+    })
+    .catch((error) => {
+      console.error(`Error : ${error.message}`);
+    });
+}
+
+setInterval(reloadWebsite, interval);
 
 dotenv.config();
 
