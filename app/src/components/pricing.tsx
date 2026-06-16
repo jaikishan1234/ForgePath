@@ -102,7 +102,7 @@ function PlanCTA({
     );
 
     const options = {
-      key: "rzp_test_RaL8PDo9YBejEW", // Enter the Key ID generated from the Dashboard
+      key: "rzp_test_FLSS55Foy1uB1q", // Enter the Key ID generated from the Dashboard
       amount: order.id, // Amount is in currency subunits.
       currency: "INR",
       name: "ForgePath",

@@ -244,7 +244,7 @@ const BuildResumePage = () => {
                   onChange={(v: string) =>
                     setBasics((p) => ({ ...p, location: v }))
                   }
-                  placeholder="Ranchi, 812345"
+                  placeholder="Mumbai, 400001"
                 />
                 <Field
                   label="LinkedIn URL"
@@ -302,19 +302,19 @@ const BuildResumePage = () => {
                       label="Location"
                       value={exp.location}
                       onChange={(v: string) => updateExp(ei, "location", v)}
-                      placeholder="Ranchi, jharkhand"
+                      placeholder="Mumbai, Maharashtra"
                     />
                     <Field
                       label="Start Date"
                       value={exp.startDate}
                       onChange={(v: string) => updateExp(ei, "startDate", v)}
-                      placeholder="April 2026"
+                      placeholder="June 2026"
                     />
                     <Field
                       label="End Date"
                       value={exp.endDate}
                       onChange={(v: string) => updateExp(ei, "endDate", v)}
-                      placeholder="April 2026"
+                      placeholder="June 2026"
                     />
                   </div>
                   <div className="flex flex-col gap-2">
