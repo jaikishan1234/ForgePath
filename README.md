@@ -19,9 +19,7 @@
   <text x="62" y="36" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26" letter-spacing="-0.5" fill="white">Forge</text>
   <text x="131" y="36" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26" letter-spacing="-0.5" fill="#fb923c">Path</text>
 </svg>
-  <h1></h1>
-  
-  <p><strong>AI-Powered Career Growth Platform</strong></p>
+  <h3>AI-Powered Career Growth Platform</h3>
   
   <p>Analyze your resume, discover matching opportunities, build stronger applications, and prepare for interviews — all from one intelligent platform.</p>
   <p>
@@ -35,6 +33,7 @@
     <img src="https://img.shields.io/badge/Gemini-AI-4285F4?style=for-the-badge&logo=google" alt="Gemini AI" />
   </p>
 </div>
+
 ---
 
 ## 📋 Table of Contents
@@ -308,7 +307,7 @@ ForgePath/
 
 ```bash
 git clone https://github.com/jaikishan1234/ForgePath.git
-cd forgepath
+cd ForgePath
 ```
 
 ---
@@ -442,7 +441,7 @@ The app runs at `http://localhost:5173`.
 3. Set **Root Directory** to `app`.
 4. Add environment variables in the Vercel dashboard:
    ```
-   VITE_BACKEND_URL=https://your-backend-domain.com
+   VITE_BACKEND_URL=https://your-render-app-name.onrender.com
    VITE_GOOGLE_CLIENT_ID=your_google_client_id
    ```
 5. Deploy. Vercel auto-deploys on every push to `main`.
