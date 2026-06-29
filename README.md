@@ -1,24 +1,7 @@
 <div align="center">
-<!-- ForgePath logo — matches the navbar: orange gradient rounded square + hammer + wordmark -->
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56">
-  <defs>
-    <linearGradient id="og" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f97316"/>
-      <stop offset="100%" style="stop-color:#f59e0b"/>
-    </linearGradient>
-  </defs>
-  <!-- rounded square background -->
-  <rect x="0" y="4" width="48" height="48" rx="10" ry="10" fill="url(#og)"/>
-  <!-- hammer icon (Lucide Hammer simplified) -->
-  <g transform="translate(24,28)" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path d="M-9 9 L3 -3"/>
-    <path d="M-2 -10 L6 -2 C8 0 8 3 6 5 L5 6 C3 8 0 8 -2 6 L-10 -2 C-12 -4 -12 -7 -10 -9 Z"/>
-    <path d="M3 -3 L9 -9"/>
-  </g>
-  <!-- wordmark: "Forge" white + "Path" orange -->
-  <text x="62" y="36" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26" letter-spacing="-0.5" fill="white">Forge</text>
-  <text x="131" y="36" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26" letter-spacing="-0.5" fill="#fb923c">Path</text>
-</svg>
+
+<img src="./logo.png" alt="ForgePath Logo" width="320" />
+
   <h3>AI-Powered Career Growth Platform</h3>
   
   <p>Analyze your resume, discover matching opportunities, build stronger applications, and prepare for interviews — all from one intelligent platform.</p>
