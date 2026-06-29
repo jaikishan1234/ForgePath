@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./logo.png" alt="ForgePath Logo" width="320" />
+# ⚒️ ForgePath
 
   <h3>AI-Powered Career Growth Platform</h3>
   
